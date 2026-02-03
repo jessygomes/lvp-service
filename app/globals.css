@@ -13,7 +13,7 @@
   --color-primary: #ddccbc;
   /* Beige foncé */
   --color-second: #b09b8a;
-  --color-second-dark: #766252;
+  --color-second-600: #766252;
   /* Beige jaune */
   --color-tiers: #ecd8bd;
   /* Beige blanc */
@@ -42,7 +42,7 @@
 }
 
 .wrapper {
-  @apply px-4 sm:px-8 xl:px-20;
+  @apply px-4 sm:px-8 xl:px-20 2xl:px-32 max-w-[1920px] 2xl:mx-auto;
 }
 
 /* Animations CSS pures pour Hero */

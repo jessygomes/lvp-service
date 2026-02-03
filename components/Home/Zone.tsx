@@ -4,18 +4,18 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Zone() {
   return (
-    <section className="wrapper py-16 md:py-20 lg:py-24 bg-white">
+    <section className="wrapper py-16 md:py-20 lg:py-24 2xl:py-32 bg-white">
       <div className="mx-auto">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 2xl:gap-20 items-center">
           {/* Contenu texte */}
           <div className="space-y-6">
             <div className="flex items-center gap-3 mb-2">
-              <h2 className="text-3xl md:text-4xl lg:text-4xl font-three text-noir tracking-wide">
+              <h2 className="text-3xl md:text-4xl lg:text-4xl 2xl:text-5xl font-three text-noir tracking-wide">
                 Zone d&apos;intervention
               </h2>
             </div>
 
-            <p className="text-base md:text-lg text-gray-700 font-one leading-relaxed max-w-xl">
+            <p className="text-base md:text-lg 2xl:text-xl text-gray-700 font-one leading-relaxed max-w-xl 2xl:max-w-2xl">
               Nous intervenons rapidement et efficacement sur l&apos;ensemble de
               l&apos;Île-de-France, auprès des particuliers comme des
               professionnels.

@@ -5,14 +5,14 @@ import { TbInvoice } from "react-icons/tb";
 
 export default function Cta() {
   return (
-    <section className="wrapper py-14 md:py-16 lg:py-20">
-      <div className="relative bg-linear-to-r from-second to-second/80 rounded-sm px-6 md:px-10 lg:px-16 py-12 md:py-14 lg:py-20 text-white overflow-hidden">
+    <section className="wrapper py-14 md:py-16 lg:py-20 2xl:py-24">
+      <div className="relative bg-linear-to-r from-second to-second/80 rounded-sm px-6 md:px-10 lg:px-16 2xl:px-20 py-12 md:py-14 lg:py-20 2xl:py-24 text-white overflow-hidden">
         {/* Élément décoratif en arrière-plan */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl -mr-32 -mt-32" />
         <div className="absolute bottom-0 left-0 w-48 h-48 bg-primary/10 rounded-full blur-3xl -ml-24 -mb-24" />
 
         <div className="relative z-10">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-3xl 2xl:max-w-4xl mx-auto text-center">
             {/* Icône décorative */}
             <div className="flex justify-center mb-6">
               <Image
@@ -26,19 +26,19 @@ export default function Cta() {
             </div>
 
             {/* Titre */}
-            <h2 className="font-three text-3xl md:text-4xl lg:text-4xl text-white mb-4 leading-tight">
+            <h2 className="font-three text-3xl md:text-4xl lg:text-4xl 2xl:text-5xl text-white mb-4 leading-tight">
               Un besoin, une exigence ?
             </h2>
 
             {/* Description */}
-            <p className="text-base md:text-lg font-one text-white/90 mb-8 leading-relaxed">
+            <p className="text-base md:text-lg 2xl:text-xl font-one text-white/90 mb-8 2xl:mb-10 leading-relaxed">
               LVP Service vous accompagne avec des solutions adaptées à vos
               attentes. Contactez nos experts pour un devis personnalisé et sans
               engagement.
             </p>
 
             {/* Boutons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 2xl:gap-5 justify-center">
               <a
                 href="/contactez-nous"
                 className="inline-block px-8 py-3 bg-second-600 text-white font-two text-sm tracking-wide rounded-sm hover:bg-second-600/90 transition-all duration-300 hover:scale-105 shadow-md"

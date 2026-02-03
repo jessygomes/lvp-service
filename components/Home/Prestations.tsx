@@ -44,20 +44,20 @@ export default function Prestations() {
   ];
 
   return (
-    <section className="wrapper py-16 md:py-20 lg:py-24 bg-white">
+    <section className="wrapper py-16 md:py-20 lg:py-24 2xl:py-32 bg-white">
       <div className="mx-auto">
         {/* En-tête */}
-        <div className="mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-4xl font-three text-noir mb-3">
+        <div className="mb-12 md:mb-16 2xl:mb-20">
+          <h2 className="text-3xl md:text-4xl lg:text-4xl 2xl:text-5xl font-three text-noir mb-3">
             Nos Prestations
           </h2>
-          <p className="text-base md:text-lg text-gray-600 font-one">
+          <p className="text-base md:text-lg 2xl:text-xl text-gray-600 font-one">
             Des solutions adaptées à chaque besoin.
           </p>
         </div>
 
         {/* Grille de services */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 2xl:gap-8">
           {/* Première rangée - 3 cartes */}
           {services.slice(0, 3).map((service, index) => (
             <AnimatedCard

@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function Quisommenous() {
   return (
-    <section className=" relative bg-linear-to-l from-quater to-tiers wrapper py-16 md:py-20 lg:py-24 overflow-hidden">
+    <section className=" relative bg-linear-to-l from-quater to-tiers wrapper py-16 md:py-20 lg:py-24 2xl:py-32 overflow-hidden">
       {/* Image de fond à gauche */}
-      <div className="absolute left-0 top-0 bottom-0 w-1/3 opacity-100 hidden lg:block">
+      <div className="absolute left-0 top-0 bottom-0 w-1/3 2xl:w-2/5 opacity-100 hidden lg:block">
         <Image
           src="/img/home/hero.jpg"
           fill
@@ -18,15 +18,15 @@ export default function Quisommenous() {
 
       <div className="wrapper relative z-10 mx-auto">
         {/* En-tête avec titre et ligne décorative */}
-        <div className="lg:ml-auto lg:w-2/3 lg:pl-12">
+        <div className="lg:ml-auto lg:w-2/3 2xl:w-3/5 lg:pl-20 2xl:pl-32">
           <div className="flex items-center gap-4 mb-6">
-            <h2 className="text-3xl md:text-4xl lg:text-3xl font-two text-noir mb-10">
+            <h2 className="text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl font-two text-second-600 mb-10">
               Qui sommes-nous ?
             </h2>
           </div>
 
           {/* Contenu texte avec style moderne */}
-          <article className="space-y-6 text-base md:text-lg text-gray-700 font-one leading-relaxed ">
+          <article className="space-y-6 text-base md:text-lg 2xl:text-xl text-second-600 font-one leading-relaxed ">
             <p className="relative sm:pl-6 sm:border-l-2 border-second/30">
               LVP est née d'un besoin essentiel :{" "}
               <span className="font-bold">

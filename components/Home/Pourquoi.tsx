@@ -35,22 +35,22 @@ export default function Pourquoi() {
   ];
 
   return (
-    <section className="relative bg-linear-to-l from-second to-second-600 wrapper py-16 md:py-20 lg:py-24 text-white overflow-hidden">
+    <section className="relative bg-linear-to-l from-second to-second-600 wrapper py-16 md:py-20 lg:py-24 2xl:py-32 text-white overflow-hidden">
       {/* Icône décorative en haut à droite */}
 
       <div className="relative z-10 mx-auto">
         {/* En-tête */}
-        <div className="mb-12 md:mb-16 text-center md:text-left">
-          <h2 className="text-2xl md:text-4xl lg:text-4xl font-three mb-3">
+        <div className="mb-12 md:mb-16 2xl:mb-20 text-center md:text-left">
+          <h2 className="text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl font-three mb-3">
             Pourquoi choisir LVP ?
           </h2>
-          <p className="text-base md:text-lg font-one opacity-90">
+          <p className="text-base md:text-lg 2xl:text-xl font-one opacity-90">
             L&apos;exigence au service de votre sérénité
           </p>
         </div>
 
         {/* Grille des raisons */}
-        <div className="grid md:grid-cols-2 gap-6 lg:gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-8 2xl:gap-10 max-w-6xl 2xl:max-w-7xl mx-auto">
           {reasons.map((reason, index) => (
             <AnimatedCard
               key={index}
