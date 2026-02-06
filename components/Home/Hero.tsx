@@ -15,7 +15,8 @@ export default function Hero() {
           </p>
 
           {/* Titre principal */}
-          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-three text-noir mb-4 sm:mb-6 md:mb-7 lg:mb-8 2xl:mb-10 leading-tight">
+          {/* 2xl:text-6xl */}
+          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-4xl xl:text-5xl  font-three text-noir mb-4 sm:mb-6 md:mb-7 lg:mb-8 2xl:mb-10 leading-tight">
             Plus qu'un service,
             <br />
             un accompagnement
@@ -35,11 +36,7 @@ export default function Hero() {
             <AnimatedButton href="/prestations" variant="primary" delay={0.2}>
               Découvrir nos prestations
             </AnimatedButton>
-            <AnimatedButton
-              href="/contactez-nous"
-              variant="secondary"
-              delay={0.4}
-            >
+            <AnimatedButton href="/contactez-nous" variant="tiers" delay={0.4}>
               Demander un devis
             </AnimatedButton>
           </div>

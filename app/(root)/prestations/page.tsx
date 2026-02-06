@@ -115,7 +115,7 @@ export default function page() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative h-[40vh] md:h-[50vh] flex items-center justify-center bg-linear-to-br from-second/10 to-primary/10">
+      <section className="relative h-[40vh] md:h-[50vh] flex items-center justify-center bg-linear-to-br from-second/50 to-primary/10">
         <div className="wrapper text-center">
           <h1 className="font-three text-4xl md:text-5xl lg:text-6xl text-noir mb-4">
             Nos Prestations

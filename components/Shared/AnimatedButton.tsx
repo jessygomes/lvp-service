@@ -6,7 +6,7 @@ import Link from "next/link";
 interface AnimatedButtonProps {
   href: string;
   children: React.ReactNode;
-  variant?: "primary" | "secondary";
+  variant?: "primary" | "secondary" | "tiers";
   delay?: number;
 }
 
@@ -22,7 +22,9 @@ export default function AnimatedButton({
   const variantClasses =
     variant === "primary"
       ? "bg-second text-white hover:bg-second/80 shadow-md"
-      : "bg-second-600/90 text-white hover:bg-second-dark/80 shadow-sm";
+      : variant === "secondary"
+        ? "bg-second-600/90 text-white hover:bg-second-dark/80 shadow-sm"
+        : "bg-tiers text-noir hover:bg-tiers/80 shadow-sm";
 
   return (
     <motion.div
